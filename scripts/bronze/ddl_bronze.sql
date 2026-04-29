@@ -1,3 +1,5 @@
+#creates bronze tables
+
 if object_id ('bronze.crm_cust_info','U') is not null
 	drop table bronze.crm_cust_info;
 create table bronze.crm_cust_info(
