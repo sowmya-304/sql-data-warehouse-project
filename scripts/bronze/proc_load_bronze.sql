@@ -1,3 +1,6 @@
+--stored procedure 
+-- load bronze layer
+
 create or alter procedure bronze.load_bronze as 
 begin
 	declare @start_time datetime, @end_time datetime,@load_start_time datetime,@load_end_time datetime
